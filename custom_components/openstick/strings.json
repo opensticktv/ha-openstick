@@ -1,0 +1,12 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to OpenStick",
+        "data": { "host": "Host", "port": "Port", "token": "API token" },
+        "data_description": { "token": "Pair from OpenStick settings to get a token." }
+      }
+    },
+    "abort": { "already_configured": "This OpenStick is already configured." }
+  }
+}
